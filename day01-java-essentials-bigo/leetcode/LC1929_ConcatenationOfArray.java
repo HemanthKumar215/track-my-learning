@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /*
- * LeetCode 1929 · Concatenation of Array · Easy              Status: Independent
+ * LeetCode 1929 · Concatenation of Array · Easy
  * Done on: Wed 11 Nov 2026
  * https://leetcode.com/problems/concatenation-of-array/
  *

@@ -1,5 +1,5 @@
 /*
- * Day 1 · Basic · Swap Two Numbers Without a Temp Variable   Status: Independent
+ * Day 1 · Basic · Swap Two Numbers Without a Temp Variable
  * Done on: Wed 11 Nov 2026
  *
  * Question: Swap a and b without using a third variable.

@@ -1,5 +1,5 @@
 /*
- * Day 1 · Basic · Leap Year                                Status: Hint-assisted
+ * Day 1 · Basic · Leap Year
  * Done on: Mon 9 Nov 2026
  *
  * Question: Return true if a year is a leap year.

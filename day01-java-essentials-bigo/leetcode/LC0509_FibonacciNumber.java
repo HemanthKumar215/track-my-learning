@@ -1,5 +1,5 @@
 /*
- * LeetCode 509 · Fibonacci Number · Easy                     Status: Independent
+ * LeetCode 509 · Fibonacci Number · Easy
  * Done on: Wed 11 Nov 2026
  * https://leetcode.com/problems/fibonacci-number/
  *

@@ -1,5 +1,5 @@
 /*
- * LeetCode 1672 · Richest Customer Wealth · Easy             Status: Independent
+ * LeetCode 1672 · Richest Customer Wealth · Easy
  * Done on: Wed 11 Nov 2026
  * https://leetcode.com/problems/richest-customer-wealth/
  *

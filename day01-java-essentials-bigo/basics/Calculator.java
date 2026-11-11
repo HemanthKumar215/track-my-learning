@@ -1,5 +1,5 @@
 /*
- * Day 1 · Basic · Simple Calculator Using switch              Status: Hint-assisted
+ * Day 1 · Basic · Simple Calculator Using switch
  * Done on: Wed 11 Nov 2026
  *
  * Question: Return the result of a op b as a String for + - * /.

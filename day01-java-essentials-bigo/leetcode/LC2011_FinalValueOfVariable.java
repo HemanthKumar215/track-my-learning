@@ -1,7 +1,7 @@
 /*
  * LeetCode 2011 · Final Value of Variable After Performing Operations · Easy
  * Done on: Wed 11 Nov 2026
- * Status: Hint-assisted
+ *
  * https://leetcode.com/problems/final-value-of-variable-after-performing-operations/
  *
  * Question: x starts at 0; each operation is "++X", "X++", "--X" or "X--". Return the final x.

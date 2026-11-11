@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /*
- * LeetCode 1470 · Shuffle the Array · Easy                   Status: Independent
+ * LeetCode 1470 · Shuffle the Array · Easy
  * Done on: Mon 9 Nov 2026
  * https://leetcode.com/problems/shuffle-the-array/
  *

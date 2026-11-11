@@ -1,6 +1,6 @@
 # Day 01 · Java Essentials & Big-O
 
-**Planned:** 1 day (3–5 hours) · **Took:** 4 calendar days (Sun 8 – Wed 11 Nov 2026), **3 study days** (no study on Tue 10 Nov) · **Status:** ✅ Done
+**Planned:** 1 day (3–5 hours) · **Took:** 4 calendar days (Sun 8 – Wed 11 Nov 2026), **3 study days** (no study on Tue 10 Nov)
 
 ## Timeline
 
@@ -24,22 +24,22 @@
 
 ## Problems
 
-| Date | Problem | Type | Status | File |
-|---|---|---|---|---|
-| Sun 8 – Mon 9 Nov | Overflow & casting (Q1–Q4) | Concept | Corrected | [OverflowAndCasting.java](concepts/OverflowAndCasting.java) |
-| Mon 9 Nov | Loop counting & Big-O (Q5–Q7) | Concept | Corrected | [LoopsAndBigO.java](concepts/LoopsAndBigO.java) |
-| Mon 9 Nov | Leap Year | Basic | Hint-assisted | [LeapYear.java](basics/LeapYear.java) |
-| Mon 9 Nov | Floyd's Triangle | Basic | Independent | [FloydTriangle.java](basics/FloydTriangle.java) |
-| Mon 9 Nov | LC 1480 Running Sum | Easy | Hint-assisted | [LC1480_RunningSum.java](leetcode/LC1480_RunningSum.java) |
-| Mon 9 Nov | LC 1470 Shuffle the Array | Easy | Independent | [LC1470_ShuffleTheArray.java](leetcode/LC1470_ShuffleTheArray.java) |
-| Wed 11 Nov | LC 509 Fibonacci Number | Easy | Independent | [LC0509_FibonacciNumber.java](leetcode/LC0509_FibonacciNumber.java) |
-| Wed 11 Nov | Swap Without Temp | Basic | Independent | [SwapWithoutTemp.java](basics/SwapWithoutTemp.java) |
-| Wed 11 Nov | Calculator (switch) | Basic | Hint-assisted | [Calculator.java](basics/Calculator.java) |
-| Wed 11 Nov | LC 1672 Richest Customer Wealth | Easy | Independent | [LC1672_RichestCustomerWealth.java](leetcode/LC1672_RichestCustomerWealth.java) |
-| Wed 11 Nov | LC 2011 Final Value of Variable | Easy | Hint-assisted | [LC2011_FinalValueOfVariable.java](leetcode/LC2011_FinalValueOfVariable.java) |
-| Wed 11 Nov | LC 1929 Concatenation of Array | Easy | Independent | [LC1929_ConcatenationOfArray.java](leetcode/LC1929_ConcatenationOfArray.java) |
-| Wed 11 Nov | String vs StringBuilder | Concept | Needs revision | [StringVsStringBuilder.java](concepts/StringVsStringBuilder.java) |
-| Wed 11 Nov | LC 1108 Defanging an IP Address | Easy | Hint-assisted | [LC1108_DefangingIPAddress.java](leetcode/LC1108_DefangingIPAddress.java) |
+| Date | Problem | Type | File |
+|---|---|---|---|
+| Sun 8 – Mon 9 Nov | Overflow & casting (Q1–Q4) | Concept | [OverflowAndCasting.java](concepts/OverflowAndCasting.java) |
+| Mon 9 Nov | Loop counting & Big-O (Q5–Q7) | Concept | [LoopsAndBigO.java](concepts/LoopsAndBigO.java) |
+| Mon 9 Nov | Leap Year | Basic | [LeapYear.java](basics/LeapYear.java) |
+| Mon 9 Nov | Floyd's Triangle | Basic | [FloydTriangle.java](basics/FloydTriangle.java) |
+| Mon 9 Nov | LC 1480 Running Sum | Easy | [LC1480_RunningSum.java](leetcode/LC1480_RunningSum.java) |
+| Mon 9 Nov | LC 1470 Shuffle the Array | Easy | [LC1470_ShuffleTheArray.java](leetcode/LC1470_ShuffleTheArray.java) |
+| Wed 11 Nov | LC 509 Fibonacci Number | Easy | [LC0509_FibonacciNumber.java](leetcode/LC0509_FibonacciNumber.java) |
+| Wed 11 Nov | Swap Without Temp | Basic | [SwapWithoutTemp.java](basics/SwapWithoutTemp.java) |
+| Wed 11 Nov | Calculator (switch) | Basic | [Calculator.java](basics/Calculator.java) |
+| Wed 11 Nov | LC 1672 Richest Customer Wealth | Easy | [LC1672_RichestCustomerWealth.java](leetcode/LC1672_RichestCustomerWealth.java) |
+| Wed 11 Nov | LC 2011 Final Value of Variable | Easy | [LC2011_FinalValueOfVariable.java](leetcode/LC2011_FinalValueOfVariable.java) |
+| Wed 11 Nov | LC 1929 Concatenation of Array | Easy | [LC1929_ConcatenationOfArray.java](leetcode/LC1929_ConcatenationOfArray.java) |
+| Wed 11 Nov | String vs StringBuilder | Concept | [StringVsStringBuilder.java](concepts/StringVsStringBuilder.java) |
+| Wed 11 Nov | LC 1108 Defanging an IP Address | Easy | [LC1108_DefangingIPAddress.java](leetcode/LC1108_DefangingIPAddress.java) |
 
 ## Revise before Day 3
 - Where to put a cast so overflow can't happen.

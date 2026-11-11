@@ -1,5 +1,5 @@
 /*
- * Day 1 · Basic · Floyd's Triangle                           Status: Independent
+ * Day 1 · Basic · Floyd's Triangle
  * Done on: Mon 9 Nov 2026
  *
  * Question: Print n rows; row i has i numbers, continuing from where the previous row stopped.
