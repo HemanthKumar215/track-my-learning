@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 /*
  * LeetCode 1480 · Running Sum of 1d Array · Easy            Status: Hint-assisted
+ * Done on: Mon 9 Nov 2026
  * https://leetcode.com/problems/running-sum-of-1d-array/
  *
  * Question: Return an array where element i is nums[0] + nums[1] + ... + nums[i].

@@ -1,5 +1,6 @@
 /*
  * Day 1 · Concept: String is immutable, StringBuilder is changeable
+ * Done on: Wed 11 Nov 2026
  *
  * Rules learned:
  *   - String methods NEVER change the original; they return a new String (store it, or it is lost)

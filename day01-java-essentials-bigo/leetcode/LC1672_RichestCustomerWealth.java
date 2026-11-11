@@ -1,5 +1,6 @@
 /*
  * LeetCode 1672 · Richest Customer Wealth · Easy             Status: Independent
+ * Done on: Wed 11 Nov 2026
  * https://leetcode.com/problems/richest-customer-wealth/
  *
  * Question: accounts[i][j] = money customer i has in bank j. Return the largest row sum.

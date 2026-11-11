@@ -1,5 +1,6 @@
 /*
  * LeetCode 509 · Fibonacci Number · Easy                     Status: Independent
+ * Done on: Wed 11 Nov 2026
  * https://leetcode.com/problems/fibonacci-number/
  *
  * Question: F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Return F(n).

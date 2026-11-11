@@ -1,5 +1,6 @@
 /*
  * LeetCode 1108 · Defanging an IP Address · Easy             Status: Hint-assisted
+ * Done on: Wed 11 Nov 2026
  * https://leetcode.com/problems/defanging-an-ip-address/
  *
  * Question: Replace every "." with "[.]".

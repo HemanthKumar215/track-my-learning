@@ -1,5 +1,6 @@
 /*
  * Day 1 · Concept: counting loop iterations and Big-O
+ * Done on: Mon 9 Nov 2026
  *
  * Rules learned:
  *   - nested loops MULTIPLY (n * n = O(n^2)); loops one after another ADD (n + n = O(n))

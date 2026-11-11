@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 /*
  * LeetCode 1470 · Shuffle the Array · Easy                   Status: Independent
+ * Done on: Mon 9 Nov 2026
  * https://leetcode.com/problems/shuffle-the-array/
  *
  * Question: nums = [x1..xn, y1..yn]; return [x1, y1, x2, y2, ..., xn, yn].

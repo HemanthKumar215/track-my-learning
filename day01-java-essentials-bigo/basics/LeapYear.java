@@ -1,5 +1,6 @@
 /*
  * Day 1 · Basic · Leap Year                                Status: Hint-assisted
+ * Done on: Mon 9 Nov 2026
  *
  * Question: Return true if a year is a leap year.
  *   divisible by 4 -> leap, EXCEPT divisible by 100 -> not leap, EXCEPT divisible by 400 -> leap

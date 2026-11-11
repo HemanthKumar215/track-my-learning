@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 /*
  * LeetCode 1929 · Concatenation of Array · Easy              Status: Independent
+ * Done on: Wed 11 Nov 2026
  * https://leetcode.com/problems/concatenation-of-array/
  *
  * Question: Return ans of length 2n with ans[i] = ans[i + n] = nums[i] (nums written twice).

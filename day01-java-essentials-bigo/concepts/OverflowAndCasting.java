@@ -1,5 +1,6 @@
 /*
  * Day 1 · Concept: integer overflow and casting
+ * Done on: Sun 8 Nov 2026 (Q1–Q3) and Mon 9 Nov 2026 (Q4: overflow in a loop); x++/++x on Wed 11 Nov
  *
  * Rule learned: overflow depends on the types AT THE MOMENT OF THE OPERATION,
  * not on the variable you store the result in.
