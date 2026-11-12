@@ -9,7 +9,7 @@ Every solution file starts with the **question**, examples, my **approach**, **t
 | Day | Topic | Dates | Study days | Basics | LeetCode | Status |
 |---|---|---|---|---|---|---|
 | 01 | [Java Essentials & Big-O](day01-java-essentials-bigo) | 8–11 Nov 2026 | 3 (of 4 calendar days) | 4 | 7 | ✅ Done |
-| 02 | Math & Number Logic + Bits | 11 Nov 2026 – | | | | ⏳ In progress |
+| 02 | [Math & Number Logic + Bits](day02-math-number-logic) | 11 Nov 2026 – | 2 so far | 4 | 2 | ⏳ In progress |
 | 03 | Arrays & Matrices | | | | | |
 | 04 | Strings & StringBuilder | | | | | |
 | 05 | Hashing (HashMap / HashSet) | | | | | |
@@ -27,6 +27,8 @@ Every solution file starts with the **question**, examples, my **approach**, **t
 
 | # | Problem | Difficulty | Pattern | Date | Code |
 |---|---|---|---|---|---|
+| 136 | Single Number | Easy | XOR / bit manipulation | 12 Nov | [Day 2](day02-math-number-logic/leetcode/LC0136_SingleNumber.java) |
+| 191 | Number of 1 Bits | Easy | Bit manipulation | 12 Nov | [Day 2](day02-math-number-logic/leetcode/LC0191_NumberOf1Bits.java) |
 | 509 | Fibonacci Number | Easy | Iteration (DP preview) | 11 Nov | [Day 1](day01-java-essentials-bigo/leetcode/LC0509_FibonacciNumber.java) |
 | 1108 | Defanging an IP Address | Easy | StringBuilder | 11 Nov | [Day 1](day01-java-essentials-bigo/leetcode/LC1108_DefangingIPAddress.java) |
 | 1470 | Shuffle the Array | Easy | Index mapping | 9 Nov | [Day 1](day01-java-essentials-bigo/leetcode/LC1470_ShuffleTheArray.java) |
