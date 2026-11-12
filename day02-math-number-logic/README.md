@@ -7,7 +7,7 @@
 | Date | What I did | Problems |
 |---|---|---|
 | **Wed 11 Nov** (evening) | Digit-loop trace (4721), Palindrome Number bug fix, started Armstrong | 2 |
-| **Thu 12 Nov** | Finished Armstrong; divisors & √n; Prime Check (rewrote from memory); GCD (Euclid), LCM; binary & bit operators; XOR; LC 136, LC 191 | 6 |
+| **Thu 12 Nov** | Finished Armstrong; divisors & √n; Prime Check (rewrote from memory); GCD (Euclid), LCM; binary & bit operators; XOR; LC 136, LC 191; LC 268 (sort, sum, XOR); Harshad; Strong | 9 |
 
 ## What I learned
 - **Digit loop:** `n % 10` = last digit, `n / 10` drops it; runs once per digit. The loop destroys `n`, so **save a copy** if you need the original later (palindrome, Armstrong).
@@ -17,6 +17,8 @@
 - **Euclid's GCD:** `gcd(a, b) = gcd(b, a % b)` until `b = 0`. O(log n). **LCM** = `a / gcd * b` (divide first to avoid overflow); reuse the method you already wrote.
 - **Bits:** `&` both, `|` either, `^` different. `n & 1` = last bit, `n >>> 1` drops it (binary version of the digit loop).
 - **XOR:** `x ^ x = 0`, `x ^ 0 = x`, order doesn't matter, so pairs cancel. Only valid when exactly one single number is guaranteed.
+- **Return placement (came up 3 times):** inside a loop, return only when you FIND the answer; the "not found" answer goes after the loop. A variable declared in `for (...)` doesn't exist after the loop.
+- **A product starts at 1** in its own variable (factorial, power); a sum starts at 0.
 
 ## Problems
 
@@ -30,6 +32,9 @@
 | Thu 12 Nov | Binary, &, \|, ^, XOR cancelling | Concept | [BitBasics.java](concepts/BitBasics.java) |
 | Thu 12 Nov | LC 136 Single Number | Easy | [LC0136_SingleNumber.java](leetcode/LC0136_SingleNumber.java) |
 | Thu 12 Nov | LC 191 Number of 1 Bits | Easy | [LC0191_NumberOf1Bits.java](leetcode/LC0191_NumberOf1Bits.java) |
+| Thu 12 Nov | LC 268 Missing Number | Easy | [LC0268_MissingNumber.java](leetcode/LC0268_MissingNumber.java) |
+| Thu 12 Nov | Harshad Number | Basic | [HarshadNumber.java](basics/HarshadNumber.java) |
+| Thu 12 Nov | Strong Number | Basic | [StrongNumber.java](basics/StrongNumber.java) |
 
 ## Still to do on Day 2
-Fast power (concept) · LC 9 Palindrome Number (half reversal) · LC 7 Reverse Integer · Strong Number · Harshad Number · Decimal to Binary · LC 268 Missing Number · LC 204 Count Primes · LC 50 Pow(x, n)
+Decimal to Binary · LC 9 Palindrome Number (half reversal) · LC 7 Reverse Integer · Fast power (concept) · LC 50 Pow(x, n) · LC 204 Count Primes
