@@ -8,6 +8,7 @@
 |---|---|---|
 | **Wed 11 Nov** (evening) | Digit-loop trace (4721), Palindrome Number bug fix, started Armstrong | 2 |
 | **Thu 12 Nov** | Finished Armstrong; divisors & √n; Prime Check (rewrote from memory); GCD (Euclid), LCM; binary & bit operators; XOR; LC 136, LC 191; LC 268 (sort, sum, XOR); Harshad; Strong | 9 |
+| **Fri 13 Nov** (morning) | Warm-up from memory (isPrime, singleNumber); Decimal to Binary; LC 9 (half reversal) | 2 |
 
 ## What I learned
 - **Digit loop:** `n % 10` = last digit, `n / 10` drops it; runs once per digit. The loop destroys `n`, so **save a copy** if you need the original later (palindrome, Armstrong).
@@ -19,6 +20,8 @@
 - **XOR:** `x ^ x = 0`, `x ^ 0 = x`, order doesn't matter, so pairs cancel. Only valid when exactly one single number is guaranteed.
 - **Return placement (came up 3 times):** inside a loop, return only when you FIND the answer; the "not found" answer goes after the loop. A variable declared in `for (...)` doesn't exist after the loop.
 - **A product starts at 1** in its own variable (factorial, power); a sum starts at 0.
+- **isPrime memory hook:** start at 2, include the root (`i * i <= n`).
+- **Half reversal** (LC 9) avoids overflow: stop when `x <= rev`, compare `x == rev || x == rev / 10`.
 
 ## Problems
 
@@ -35,6 +38,8 @@
 | Thu 12 Nov | LC 268 Missing Number | Easy | [LC0268_MissingNumber.java](leetcode/LC0268_MissingNumber.java) |
 | Thu 12 Nov | Harshad Number | Basic | [HarshadNumber.java](basics/HarshadNumber.java) |
 | Thu 12 Nov | Strong Number | Basic | [StrongNumber.java](basics/StrongNumber.java) |
+| Fri 13 Nov | Decimal to Binary | Basic | [DecimalToBinary.java](basics/DecimalToBinary.java) |
+| Fri 13 Nov | LC 9 Palindrome Number (half reversal) | Easy | [LC0009_PalindromeNumber.java](leetcode/LC0009_PalindromeNumber.java) |
 
 ## Still to do on Day 2
-Decimal to Binary · LC 9 Palindrome Number (half reversal) · LC 7 Reverse Integer · Fast power (concept) · LC 50 Pow(x, n) · LC 204 Count Primes
+LC 7 Reverse Integer · Fast power (concept) · LC 50 Pow(x, n) · LC 204 Count Primes
