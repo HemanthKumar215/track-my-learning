@@ -9,6 +9,8 @@
 | **Wed 11 Nov** (evening) | Digit-loop trace (4721), Palindrome Number bug fix, started Armstrong | 2 |
 | **Thu 12 Nov** | Finished Armstrong; divisors & √n; Prime Check (rewrote from memory); GCD (Euclid), LCM; binary & bit operators; XOR; LC 136, LC 191; LC 268 (sort, sum, XOR); Harshad; Strong | 9 |
 | **Fri 13 Nov** (morning) | Warm-up from memory (isPrime, singleNumber); Decimal to Binary; LC 9 (half reversal) | 2 |
+| Sat 14 Nov | — other exams — | 0 |
+| **Sun 15 Nov** | LC 7 Reverse Integer (overflow check) | 1 |
 
 ## What I learned
 - **Digit loop:** `n % 10` = last digit, `n / 10` drops it; runs once per digit. The loop destroys `n`, so **save a copy** if you need the original later (palindrome, Armstrong).
@@ -21,6 +23,7 @@
 - **Return placement (came up 3 times):** inside a loop, return only when you FIND the answer; the "not found" answer goes after the loop. A variable declared in `for (...)` doesn't exist after the loop.
 - **A product starts at 1** in its own variable (factorial, power); a sum starts at 0.
 - **isPrime memory hook:** start at 2, include the root (`i * i <= n`).
+- **Overflow check without long** (LC 7): before `rev * 10 + d`, compare `rev` with `Integer.MAX_VALUE / 10` and `Integer.MIN_VALUE / 10`.
 - **Half reversal** (LC 9) avoids overflow: stop when `x <= rev`, compare `x == rev || x == rev / 10`.
 
 ## Problems
@@ -40,6 +43,7 @@
 | Thu 12 Nov | Strong Number | Basic | [StrongNumber.java](basics/StrongNumber.java) |
 | Fri 13 Nov | Decimal to Binary | Basic | [DecimalToBinary.java](basics/DecimalToBinary.java) |
 | Fri 13 Nov | LC 9 Palindrome Number (half reversal) | Easy | [LC0009_PalindromeNumber.java](leetcode/LC0009_PalindromeNumber.java) |
+| Fri 13 – Sun 15 Nov | LC 7 Reverse Integer | Medium | [LC0007_ReverseInteger.java](leetcode/LC0007_ReverseInteger.java) |
 
 ## Still to do on Day 2
-LC 7 Reverse Integer · Fast power (concept) · LC 50 Pow(x, n) · LC 204 Count Primes
+Fast power (concept) · LC 50 Pow(x, n) · LC 204 Count Primes
