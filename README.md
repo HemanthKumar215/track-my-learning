@@ -9,7 +9,7 @@ Every solution file starts with the **question**, examples, my **approach**, **t
 | Day | Topic | Dates | Study days | Basics | LeetCode | Status |
 |---|---|---|---|---|---|---|
 | 01 | [Java Essentials & Big-O](day01-java-essentials-bigo) | 8–11 Nov 2026 | 3 (of 4 calendar days) | 4 | 7 | ✅ Done |
-| 02 | [Math & Number Logic + Bits](day02-math-number-logic) | 11 Nov 2026 – | 4 so far | 7 | 5 | ⏳ In progress |
+| 02 | [Math & Number Logic + Bits](day02-math-number-logic) | 11 Nov 2026 – | 4 so far | 7 | 6 | ⏳ In progress |
 | 03 | Arrays & Matrices | | | | | |
 | 04 | Strings & StringBuilder | | | | | |
 | 05 | Hashing (HashMap / HashSet) | | | | | |
@@ -29,6 +29,7 @@ Every solution file starts with the **question**, examples, my **approach**, **t
 |---|---|---|---|---|---|
 | 7 | Reverse Integer | Medium | Math (overflow check) | 15 Nov | [Day 2](day02-math-number-logic/leetcode/LC0007_ReverseInteger.java) |
 | 9 | Palindrome Number | Easy | Math (half reversal) | 13 Nov | [Day 2](day02-math-number-logic/leetcode/LC0009_PalindromeNumber.java) |
+| 50 | Pow(x, n) | Medium | Fast power (divide & conquer) | 15 Nov | [Day 2](day02-math-number-logic/leetcode/LC0050_PowXN.java) |
 | 136 | Single Number | Easy | XOR / bit manipulation | 12 Nov | [Day 2](day02-math-number-logic/leetcode/LC0136_SingleNumber.java) |
 | 191 | Number of 1 Bits | Easy | Bit manipulation | 12 Nov | [Day 2](day02-math-number-logic/leetcode/LC0191_NumberOf1Bits.java) |
 | 268 | Missing Number | Easy | Sum formula / XOR | 12 Nov | [Day 2](day02-math-number-logic/leetcode/LC0268_MissingNumber.java) |
