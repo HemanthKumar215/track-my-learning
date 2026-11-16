@@ -34,9 +34,9 @@ Every solution file starts with the **question**, examples, my **approach**, **t
 | 191 | Number of 1 Bits | Easy | Bit manipulation | 12 Nov | [Day 2](day02-math-number-logic/leetcode/LC0191_NumberOf1Bits.java) |
 | 204 | Count Primes | Medium | Sieve of Eratosthenes | 16 Nov | [Day 2](day02-math-number-logic/leetcode/LC0204_CountPrimes.java) |
 | 268 | Missing Number | Easy | Sum formula / XOR | 12 Nov | [Day 2](day02-math-number-logic/leetcode/LC0268_MissingNumber.java) |
+| 283 | Move Zeroes | Easy | Write index (in place) | 16 Nov | [Day 3](day03-arrays-matrices/leetcode/LC0283_MoveZeroes.java) |
 | 509 | Fibonacci Number | Easy | Iteration (DP preview) | 11 Nov | [Day 1](day01-java-essentials-bigo/leetcode/LC0509_FibonacciNumber.java) |
 | 1108 | Defanging an IP Address | Easy | StringBuilder | 11 Nov | [Day 1](day01-java-essentials-bigo/leetcode/LC1108_DefangingIPAddress.java) |
-| 283 | Move Zeroes | Easy | Write index (in place) | 16 Nov | [Day 3](day03-arrays-matrices/leetcode/LC0283_MoveZeroes.java) |
 | 1470 | Shuffle the Array | Easy | Index mapping | 9 Nov | [Day 1](day01-java-essentials-bigo/leetcode/LC1470_ShuffleTheArray.java) |
 | 1480 | Running Sum of 1d Array | Easy | Prefix sum | 9 Nov | [Day 1](day01-java-essentials-bigo/leetcode/LC1480_RunningSum.java) |
 | 1672 | Richest Customer Wealth | Easy | 2D array traversal | 11 Nov | [Day 1](day01-java-essentials-bigo/leetcode/LC1672_RichestCustomerWealth.java) |
