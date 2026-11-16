@@ -54,4 +54,4 @@
 | Sun 15 – Mon 16 Nov | LC 204 Count Primes (sieve) | Medium | [LC0204_CountPrimes.java](leetcode/LC0204_CountPrimes.java) |
 
 ## Day 2 total
-7 basics + 7 LeetCode (2 Easy-to-Medium math, 3 bit/XOR, 2 Medium: LC 50, LC 204) + 3 concepts.
+7 basics + 7 LeetCode (LC 9, 7 · LC 136, 191, 268 · LC 50, 204) + 3 concepts (digit loop, bits, fast power).
