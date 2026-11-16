@@ -9,7 +9,7 @@ Every solution file starts with the **question**, examples, my **approach**, **t
 | Day | Topic | Dates | Study days | Basics | LeetCode | Status |
 |---|---|---|---|---|---|---|
 | 01 | [Java Essentials & Big-O](day01-java-essentials-bigo) | 8–11 Nov 2026 | 3 (of 4 calendar days) | 4 | 7 | ✅ Done |
-| 02 | [Math & Number Logic + Bits](day02-math-number-logic) | 11 Nov 2026 – | 4 so far | 7 | 6 | ⏳ In progress |
+| 02 | [Math & Number Logic + Bits](day02-math-number-logic) | 11–16 Nov 2026 | 5 (of 6 calendar days) | 7 | 7 | ✅ Done |
 | 03 | Arrays & Matrices | | | | | |
 | 04 | Strings & StringBuilder | | | | | |
 | 05 | Hashing (HashMap / HashSet) | | | | | |
@@ -32,6 +32,7 @@ Every solution file starts with the **question**, examples, my **approach**, **t
 | 50 | Pow(x, n) | Medium | Fast power (divide & conquer) | 15 Nov | [Day 2](day02-math-number-logic/leetcode/LC0050_PowXN.java) |
 | 136 | Single Number | Easy | XOR / bit manipulation | 12 Nov | [Day 2](day02-math-number-logic/leetcode/LC0136_SingleNumber.java) |
 | 191 | Number of 1 Bits | Easy | Bit manipulation | 12 Nov | [Day 2](day02-math-number-logic/leetcode/LC0191_NumberOf1Bits.java) |
+| 204 | Count Primes | Medium | Sieve of Eratosthenes | 16 Nov | [Day 2](day02-math-number-logic/leetcode/LC0204_CountPrimes.java) |
 | 268 | Missing Number | Easy | Sum formula / XOR | 12 Nov | [Day 2](day02-math-number-logic/leetcode/LC0268_MissingNumber.java) |
 | 509 | Fibonacci Number | Easy | Iteration (DP preview) | 11 Nov | [Day 1](day01-java-essentials-bigo/leetcode/LC0509_FibonacciNumber.java) |
 | 1108 | Defanging an IP Address | Easy | StringBuilder | 11 Nov | [Day 1](day01-java-essentials-bigo/leetcode/LC1108_DefangingIPAddress.java) |

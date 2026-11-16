@@ -1,6 +1,6 @@
 # Day 02 · Math & Number Logic + Bits
 
-**Planned:** 1 day (3–5 hours) · **Started:** Wed 11 Nov 2026 · **In progress**
+**Planned:** 1 day (3–5 hours) · **Dates:** Wed 11 – Mon 16 Nov 2026 · **5 study days** (Sat 14 off for other exams) · ✅ Done
 
 ## Timeline
 
@@ -10,7 +10,8 @@
 | **Thu 12 Nov** | Finished Armstrong; divisors & √n; Prime Check (rewrote from memory); GCD (Euclid), LCM; binary & bit operators; XOR; LC 136, LC 191; LC 268 (sort, sum, XOR); Harshad; Strong | 9 |
 | **Fri 13 Nov** (morning) | Warm-up from memory (isPrime, singleNumber); Decimal to Binary; LC 9 (half reversal) | 2 |
 | Sat 14 Nov | — other exams — | 0 |
-| **Sun 15 Nov** | LC 7 Reverse Integer (overflow check); Fast power (from memory); LC 50 Pow(x, n) | 3 |
+| **Sun 15 Nov** | LC 7 Reverse Integer (overflow check); Fast power (from memory); LC 50 Pow(x, n), then rewrote `myPow` myself | 3 |
+| **Mon 16 Nov** (morning) | Why the sieve matters; LC 204 Count Primes (Sieve of Eratosthenes) | 1 |
 
 ## What I learned
 - **Digit loop:** `n % 10` = last digit, `n / 10` drops it; runs once per digit. The loop destroys `n`, so **save a copy** if you need the original later (palindrome, Armstrong).
@@ -26,6 +27,8 @@
 - **Overflow check without long** (LC 7): before `rev * 10 + d`, compare `rev` with `Integer.MAX_VALUE / 10` and `Integer.MIN_VALUE / 10`.
 - **Fast power:** `x^n = half * half` (× x if n is odd), `half = x^(n/2)`. O(log n). `n / 2` is the exponent, `half` is the value.
 - **Negative powers** (LC 50): `x^-n = (1/x)^n`. Handle the sign **once**, outside the recursion. Copy `n` into a `long` before negating (`-(-2147483648)` overflows an int).
+- **Sieve of Eratosthenes** (LC 204): cross out multiples of each prime (start `p + p`, jump by `p`); the survivors are the primes. O(n log log n) vs O(n√n) for calling isPrime on every number (45 ms vs ~100 s at n = 5,000,000). Idea: precompute once and store the answers.
+- `!flag` is the short way to write `flag != true`.
 - **Half reversal** (LC 9) avoids overflow: stop when `x <= rev`, compare `x == rev || x == rev / 10`.
 
 ## Problems
@@ -48,6 +51,7 @@
 | Fri 13 – Sun 15 Nov | LC 7 Reverse Integer | Medium | [LC0007_ReverseInteger.java](leetcode/LC0007_ReverseInteger.java) |
 | Sun 15 Nov | Fast power (exponentiation by squaring) | Concept | [FastPower.java](concepts/FastPower.java) |
 | Sun 15 Nov | LC 50 Pow(x, n) | Medium | [LC0050_PowXN.java](leetcode/LC0050_PowXN.java) |
+| Sun 15 – Mon 16 Nov | LC 204 Count Primes (sieve) | Medium | [LC0204_CountPrimes.java](leetcode/LC0204_CountPrimes.java) |
 
-## Still to do on Day 2
-LC 204 Count Primes
+## Day 2 total
+7 basics + 7 LeetCode (2 Easy-to-Medium math, 3 bit/XOR, 2 Medium: LC 50, LC 204) + 3 concepts.
